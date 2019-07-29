@@ -17,6 +17,7 @@
   },
   "suffix": ".bs.js",
   "bs-dependencies": [
+    "reductive"
   ],
   "bs-dev-dependencies": [
     "@glennsl/bs-jest"

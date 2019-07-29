@@ -20,5 +20,9 @@
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.8",
     "bs-platform": "^5.0.6"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "reductive": "reasonml-community/reductive"
   }
 }
