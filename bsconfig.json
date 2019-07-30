@@ -20,6 +20,7 @@
     "reductive"
   ],
   "bs-dev-dependencies": [
-    "@glennsl/bs-jest"
+    "@glennsl/bs-jest",
+    "reductive-dev-tools"
   ]
 }

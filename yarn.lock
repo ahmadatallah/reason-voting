@@ -2843,6 +2843,11 @@ reason-react@^0.5.3:
     react ">=15.0.0 || >=16.0.0"
     react-dom ">=15.0.0 || >=16.0.0"
 
+reductive-dev-tools@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/reductive-dev-tools/-/reductive-dev-tools-0.2.6.tgz#cb8244224f317f051c260a03afd6fa9815289163"
+  integrity sha512-dfZjLma1/ijZUPuPEmfnYR/z9ex1bH9EHLZMoSNoZ9rD52W51Ui+aQ5oOa8J4hHzoopMPTH+FU1ARGOWc1DmVg==
+
 reductive@reasonml-community/reductive:
   version "1.0.0"
   resolved "https://codeload.github.com/reasonml-community/reductive/tar.gz/6a11b30477588cedd99485741e7c5fd8a102fcac"

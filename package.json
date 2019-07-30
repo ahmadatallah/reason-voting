@@ -19,7 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.8",
-    "bs-platform": "^5.0.6"
+    "bs-platform": "^5.0.6",
+    "reductive-dev-tools": "^0.2.6"
   },
   "dependencies": {
     "global": "^4.4.0",

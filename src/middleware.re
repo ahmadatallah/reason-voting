@@ -15,3 +15,26 @@ let logger = (store, next, action) => {
   Js.log(Reductive.Store.getState(store));
   returnValue
 };
+
+
+/***
+ * middleware that listens for a specific action and calls that function.
+ * Allows for async actions.
+ */
+type thunk('state) = ..;
+
+type thunkFunc('state) =
+  (thunk('state) => unit, 'state) => unit;
+
+type thunk('state) +=
+  | Thunk(thunkFunc('state));
+
+let thunk = (store, next, action) =>
+  switch (action) {
+  | Thunk(func) =>
+    func(
+      Reductive.Store.dispatch(store),
+      Reductive.Store.getState(store),
+    )
+  | _ => next(action)
+  };
